@@ -1,13 +1,12 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Textform from "./components/Textform";
+// App.js
+import React from 'react';
+import UserTable from './UserTable';
 
 function App() {
   return (
-    <>
-      <Navbar title="shambhu" abouttxt="about_shambhu"/>
-      <Textform heading="Enter text to analyze"/>
-    </>
+    <div className="App">
+      <UserTable />
+    </div>
   );
 }
 
